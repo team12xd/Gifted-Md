@@ -10,7 +10,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 module.exports = { session: process.env.SESSION_ID || 'Gifted;;;',
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "Gifted Tech",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "254762016957,254728782591", 
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "254110853827", 
              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "no",
@@ -54,4 +54,7 @@ fs.watchFile(fichier, () => {
     delete require.cache[fichier];
     require(fichier);
 });
+
+
+
 

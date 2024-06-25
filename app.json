@@ -5,7 +5,7 @@
   "logo":"https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
   "repository":"https://github.com/mouricedevs/Gifted-Md",
   "succes_url":"/",
-"stack":"heroku-22",
+"stack":"container",
 
   "env":{
     "PREFIX":
@@ -88,7 +88,7 @@
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254728782591,254762016957"
+    "value": "254110853827"
   },
     "WARN_COUNT":
   {
@@ -138,7 +138,7 @@
 
   "addons":[
     {
-      "plan":"heroku-postgresql"
+      "plan":"heroku-postgresql:essential-1"
     }
   ]
 }
